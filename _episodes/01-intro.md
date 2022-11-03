@@ -45,7 +45,7 @@ Using the shell, the task in the literature example can be accomplished in secon
 The shell is a program where users can type commands.
 With the shell, it's possible to invoke complicated programs like climate modeling software
 or simple commands that create an empty directory with only one line of code.
-The most popular Unix shell is Bash (the Bourne Again SHell ---
+The most popular Unix shell is Bash (the Bourne Again Shell ---
 so-called because it's derived from a shell written by Stephen Bourne).
 Bash is the default shell on most modern implementations of Unix and in most packages that provide
 Unix-like tools for Windows.
@@ -86,6 +86,16 @@ Most importantly:
 when typing commands, either from these lessons or from other sources,
 *do not type the prompt*, only the commands that follow it.
 Also note that after you type a command, you have to press the <kbd>Enter</kbd> key to execute it.
+
+
+> ## Other Prompts
+> Depending on your linux installation you may have a different prompt
+> For example
+>
+> ~~~
+> [user@machine directory]$ _
+> ~~~
+{: .callout}
 
 The prompt is followed by a **text cursor**, a character that indicates the position where your
 typing will appear.
