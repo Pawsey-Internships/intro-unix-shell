@@ -459,8 +459,9 @@ equivalent to `ls -Fa`.
 > called `.bash_profile`. This file usually contains shell configuration
 > settings. You may also see other files and directories beginning
 > with `.`. These are usually files and directories that are used to configure
-> different programs on your computer. The prefix `.` is used to prevent these
-> configuration files from cluttering the terminal when a standard `ls` command
+> different programs on your computer and are commonly called **dotfiles**.
+> The prefix `.` is used to prevent these configuration
+> files from cluttering the terminal when a standard `ls` command
 > is used.
 {: .callout}
 
