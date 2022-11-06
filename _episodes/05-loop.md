@@ -275,6 +275,17 @@ increase the odds that the program won't do what its readers think it does.
 > {: .solution}
 {: .challenge}
 
+> ## The advantages of globs
+> Glob expansion with characters like `*` is fast and efficient. Do not be tempted to use `ls`
+> to work out what file paths to loop over. It is slow and inefficient.
+> ~~~
+> for file in $(ls input_files/*.txt); do
+>    ...
+> done
+> ~~~
+> {: .error}
+{: .callout}
+
 > ## Saving to a File in a Loop - Part One
 >
 > In the `shell-lesson-data/molecules` directory, what is the effect of this loop?
