@@ -728,4 +728,21 @@ or specifying a naming pattern using wildcards.
 > {: .solution}
 {: .challenge}
 
+> ## Creating Multiple Directories at once
+> Bash also supports brace expansion whereby multiple paths can be
+> created with a single expression.
+> For example to reproduce the folder structure only a single command is needed:
+> ~~~
+> $ mkdir -p 2016-05-20/data/{raw, processed}
+> ~~~
+> {: .language-bash}
+> As bash expands it to:
+> ~~~
+> $ mkdir -p 2016-05-20/data/raw 2016-05-20/data/processed
+> ~~~
+> {: .language-bash}
+> This can be useful when creating nested file structures or when creating multiple
+> directories quickly.
+{: .callout}
+
 {% include links.md %}
