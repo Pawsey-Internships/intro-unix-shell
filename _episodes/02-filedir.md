@@ -449,9 +449,21 @@ which means 'the current working directory'.
 It may seem redundant to have a name for it,
 but we'll see some uses for it soon.
 
-Note that in most command line tools, multiple options can be combined
-with a single `-` and no spaces between the options: `ls -F -a` is
-equivalent to `ls -Fa`.
+
+> ## Command Line Flags
+>
+> In most command line tools, multiple options can be combined
+> with a single `-` and no spaces between the options: `ls -F -a` is
+> equivalent to `ls -Fa`.
+> This makes writing more complicated commands easy. For example `ls`
+> with long listing showing all hidden files in human readable format in
+> reverse order is just:
+>
+> ~~~
+> $ ls -larh
+> ~~~
+> {: .language-bash}
+{: .callout}
 
 > ## Other Hidden Files
 >
