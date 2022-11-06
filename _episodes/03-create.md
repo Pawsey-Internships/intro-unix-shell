@@ -499,7 +499,7 @@ $ rm -r thesis
 
 Given that there is no way to retrieve files deleted using the shell,
 `rm -r` *should be used with great caution*
-(you might consider adding the interactive option `rm -r -i`).
+(you might consider adding the interactive option `rm -r -i` or just `rm -ri`).
 
 ## Operations with multiple files and directories
 
