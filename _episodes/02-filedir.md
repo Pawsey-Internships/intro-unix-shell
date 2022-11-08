@@ -806,6 +806,38 @@ and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
 
+
+### The most common `ls` command
+
+We have already seen that `-a` makes ls show hidden files.
+Another very useful flag is `-l` which tells `ls` to use a long listing format.
+This includes very useful information like file permissions, file sizes, ownership and modification
+times. As such the following command is one of the most used:
+
+~~~
+$ ls -la
+~~~
+{: .language-bash}
+
+~~~
+total 36
+drwxr-xr-x 1 nelle nelle   188 Nov  3 08:40 .
+drwxr-xr-x 1 nelle nelle    34 Nov  3 08:40 ..
+-rw-r--r-- 1 nelle nelle   199 Nov  3 08:40 .bash_profile
+drwxr-xr-x 1 nelle nelle    46 Nov  3 08:40 creatures
+drwxr-xr-x 1 nelle nelle   156 Nov  3 08:40 data
+drwxr-xr-x 1 nelle nelle    16 Nov  3 08:40 Desktop
+drwxr-xr-x 1 nelle nelle   126 Nov  3 08:40 molecules
+drwxr-xr-x 1 nelle nelle    20 Nov  3 08:40 north-pacific-gyre
+-rw-r--r-- 1 nelle nelle    86 Nov  3 08:40 notes.txt
+-rw-r--r-- 1 nelle nelle    32 Nov  3 08:40 pizza.cfg
+-rw-r--r-- 1 nelle nelle 21583 Nov  3 08:40 solar.pdf
+drwxr-xr-x 1 nelle nelle    54 Nov  3 08:40 writing
+~~~
+{: .output}
+We will cover the specifics of file permissions and ownership later so don't worry
+if you don't understand what each collumn means just yet.
+
 [Arguments]: https://swcarpentry.github.io/shell-novice/reference.html#argument
 
 {% include links.md %}
