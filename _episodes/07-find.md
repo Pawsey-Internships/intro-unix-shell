@@ -175,11 +175,19 @@ $ grep -n -w "the" haiku.txt
 6:and the presence of absence:
 ~~~
 {: .output}
-
+> ## Using multiple flags
+>
+> Remember that flags for most commands can be concatenated together:
+> ~~~
+> grep -nw "the" haiku.txt
+> ~~~
+> {: .language-bash}
+> We will use this going forward
+{: .callout}
 Now we want to use the option `-i` to make our search case-insensitive:
 
 ~~~
-$ grep -n -w -i "the" haiku.txt
+$ grep -nwi "the" haiku.txt
 ~~~
 {: .language-bash}
 
@@ -194,7 +202,7 @@ Now, we want to use the option `-v` to invert our search, i.e., we want to outpu
 the lines that do not contain the word 'the'.
 
 ~~~
-$ grep -n -w -v "the" haiku.txt
+$ grep -nwv "the" haiku.txt
 ~~~
 {: .language-bash}
 
