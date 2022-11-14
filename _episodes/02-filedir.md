@@ -449,9 +449,21 @@ which means 'the current working directory'.
 It may seem redundant to have a name for it,
 but we'll see some uses for it soon.
 
-Note that in most command line tools, multiple options can be combined
-with a single `-` and no spaces between the options: `ls -F -a` is
-equivalent to `ls -Fa`.
+
+> ## Command Line Flags
+>
+> In most command line tools, multiple options can be combined
+> with a single `-` and no spaces between the options: `ls -F -a` is
+> equivalent to `ls -Fa`.
+> This makes writing more complicated commands easy. For example `ls`
+> with long listing showing all hidden files in human readable format in
+> reverse order is just:
+>
+> ~~~
+> $ ls -larh
+> ~~~
+> {: .language-bash}
+{: .callout}
 
 > ## Other Hidden Files
 >
@@ -459,8 +471,9 @@ equivalent to `ls -Fa`.
 > called `.bash_profile`. This file usually contains shell configuration
 > settings. You may also see other files and directories beginning
 > with `.`. These are usually files and directories that are used to configure
-> different programs on your computer. The prefix `.` is used to prevent these
-> configuration files from cluttering the terminal when a standard `ls` command
+> different programs on your computer and are commonly called **dotfiles**.
+> The prefix `.` is used to prevent these configuration
+> files from cluttering the terminal when a standard `ls` command
 > is used.
 {: .callout}
 
@@ -792,6 +805,38 @@ pressing <kbd>Tab</kbd> twice brings up a list of all the files,
 and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
+
+
+### The most common `ls` command
+
+We have already seen that `-a` makes ls show hidden files.
+Another very useful flag is `-l` which tells `ls` to use a long listing format.
+This includes very useful information like file permissions, file sizes, ownership and modification
+times. As such the following command is one of the most used:
+
+~~~
+$ ls -la
+~~~
+{: .language-bash}
+
+~~~
+total 36
+drwxr-xr-x 1 nelle nelle   188 Nov  3 08:40 .
+drwxr-xr-x 1 nelle nelle    34 Nov  3 08:40 ..
+-rw-r--r-- 1 nelle nelle   199 Nov  3 08:40 .bash_profile
+drwxr-xr-x 1 nelle nelle    46 Nov  3 08:40 creatures
+drwxr-xr-x 1 nelle nelle   156 Nov  3 08:40 data
+drwxr-xr-x 1 nelle nelle    16 Nov  3 08:40 Desktop
+drwxr-xr-x 1 nelle nelle   126 Nov  3 08:40 molecules
+drwxr-xr-x 1 nelle nelle    20 Nov  3 08:40 north-pacific-gyre
+-rw-r--r-- 1 nelle nelle    86 Nov  3 08:40 notes.txt
+-rw-r--r-- 1 nelle nelle    32 Nov  3 08:40 pizza.cfg
+-rw-r--r-- 1 nelle nelle 21583 Nov  3 08:40 solar.pdf
+drwxr-xr-x 1 nelle nelle    54 Nov  3 08:40 writing
+~~~
+{: .output}
+We will cover the specifics of file permissions and ownership later so don't worry
+if you don't understand what each collumn means just yet.
 
 [Arguments]: https://swcarpentry.github.io/shell-novice/reference.html#argument
 
