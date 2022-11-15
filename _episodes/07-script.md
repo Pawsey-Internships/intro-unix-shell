@@ -82,6 +82,22 @@ ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
 Sure enough,
 our script's output is exactly what we would get if we ran that pipeline directly.
 
+> ## Making a script executable
+>
+> You can avoid having to run you script with `bash middle.sh` by giving the script the execute permission:
+> ~~~
+> $ chmod a+x middle.sh
+> ~~~
+> {: .language-bash}
+> Recall from the file permission section that `a+x` means giving the execute permission to the user, group and others.
+>
+> You will now be able to run you script on the command line with:
+> ~~~
+> $ ./middle.sh
+> ~~~
+> {: .language-bash}
+{: .callout}
+
 > ## Text vs. Whatever
 >
 > We usually call programs like Microsoft Word or LibreOffice Writer "text
