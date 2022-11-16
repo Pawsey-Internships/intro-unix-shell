@@ -9,17 +9,17 @@ questions:
 - "What are groups?"
 objectives:
 - "List the permissions and ownership of files/directories"
-- "Explain what the common Linux file permissions are"
+- "Explain what the common Unix file permissions are"
 - "Change the permission of files/directories"
 keypoints:
 - "`ls -la` shows the file permissions for all files in a directory"
 - "The `chmod` command is used for changing the permissions of files"
-- "A group is just a collection of users in linux"
+- "A group is just a collection of users"
 ---
 
 # Understanding Permissions
 
-Linux, like other Unix-like operating systems, allows multiple users to work on the same server simultaneously without disrupting each other.
+Unix-like operating systems allows multiple users to work on the same server simultaneously without disrupting each other.
 
 Individuals sharing access to files pose a risk exposing classified information or even data loss if other users access their files or directories. To address this, Unix added the file permission feature to specify how much power each user has over a given file or directory.
 
