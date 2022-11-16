@@ -101,20 +101,6 @@ $ chmod g+w code_for_project.py
 ~~~
 {: .language-bash}
 
-Here is a more complicated example
-~~~
-$ chmod ugo-rwx Desktop
-~~~
-which removes all permissions for the user (u), group (g) and others (o) making the Desktop inaccessible to everyone.
-
-One final example to show the true capability of `chmod`:
-
-~~~
-$ chmod ug=rx,o+r data
-~~~
-
-assigns read(r) and execute(x) permission to both user(u) and group(g) and add read permission to others (o) for the directory `data`
-
 > ## Octal permissions
 >
 > ![Octal file permissions](../fig/octal-permissions.jpg)
