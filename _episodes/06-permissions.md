@@ -43,15 +43,11 @@ drwxr-xr-x 1 nelle nelle    54 Nov  3 08:40 writing
 
 There is a lot of information in these lines, but lets focus on the first column:
 
-**d**:	The file is a directory.
-
-**r**:	Permission to "read" a file (e.g. open a file in a text editor or copy a file).
-
-**w**:	Permission to "write" to (modify) a file (e.g. save changes to a file in a text editor, or delete a file).
-
-**x**:	Permission to "execute" a file (e.g. run a BASH script using`./file.sh` command instead of `bash file.sh`).
-
-**-**:	If any character in `rwx` is replaced by `-`, that permission has been revoked.
+- **d**	The file is a directory.
+- **r**	Permission to "read" a file (e.g. open a file in a text editor or copy a file).
+- **w**	Permission to "write" to (modify) a file (e.g. save changes to a file in a text editor, or delete a file).
+- **x**	Permission to "execute" a file (e.g. run a BASH script using`./file.sh` command instead of `bash file.sh`).
+- **-**	If any character in `rwx` is replaced by `-`, that permission has been revoked.
 
 ![there are three sets of permissions, one for each of other, group and owner](../fig/permissions.png)
 
