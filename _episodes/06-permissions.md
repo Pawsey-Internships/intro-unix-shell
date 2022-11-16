@@ -67,7 +67,9 @@ On a Pawsey file-system you may see something like:
 ~~~
 $ -rwxr-xr--  1 username interns0001 282 Jan  6  2022 code_for_project.py
 ~~~
-From above, we see that `username` can read, write (modify) and execute `code_for_project.py` and that users in `interns0001` can read and execute `code_for_project.py`. User who are not `username` or not in the `interns0001` group are only able to read  `code_for_project.py`.
+From above, we see that `username` can read, write (modify) and execute `code_for_project.py` and that users in `interns0001` can read and execute `code_for_project.py`. User who are not `username` or not in the `interns0001` group are only able to read  `code_for_project.py`. 
+
+On Pawsey systems, you will be a member of a `group` that contains yourself, your supervisor(s) and any other collaborators. For `username` in the above example, this group is `interns0001`.
 
 # Changing Permissions
 
