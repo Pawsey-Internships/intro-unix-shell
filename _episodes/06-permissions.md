@@ -45,17 +45,17 @@ There is a lot of information in these lines but lets focus on the first column:
 
 ![there are three sets of permissions, one for each of other, group and owner](../fig/permissions.png)
 
-Directories have a `d` in the File Type position.
+**d**:	The file is a directory.
 
->## What do the letters really mean?
->
-> **r**:	Premission to "read" a file (e.g. open a in a text-editor or copy a file).
->
-> **w**:	Premission to “write”, or modify, a file (e.g. save changes to a file a text-editor or delete a file).
->
-> **x**:	Premission to “execute” a file (e.g. run a BASH script using`./file.sh` command instead of `bash file.sh`).
->
-> **-**:	If any character in `rwx` is replaced by `-`, that permission has been revoked.
+**r**:	Permission to "read" a file (e.g. open a in a text-editor or copy a file).
+
+**w**:	Permission to “write”, or modify, a file (e.g. save changes to a file a text-editor or delete a file).
+
+**x**:	Permission to “execute” a file (e.g. run a BASH script using`./file.sh` command instead of `bash file.sh`).
+
+**-**:	If any character in `rwx` is replaced by `-`, that permission has been revoked.
+
+
 {: .callout}
 
 
