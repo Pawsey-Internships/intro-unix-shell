@@ -59,57 +59,15 @@ Directories have a `d` in the File Type position.
 {: .callout}
 
 
-> ## What do the other columns mean?
->
-> For a line:
-> ~~~
-> drwxr-xr-x 1 nelle nelle    54 Nov  3 08:40 writing
-> ~~~
-> {: .language-bash}
-> In order we have:
->
->   **File type**: Denotes the type of file. d means directory, – means regular file, l means a symbolic link.
->
->   **Permissions**: This field shows the permission set on a file. I’ll explain it in detail in the next section.
->
->    **Hard link count**: Shows if the file has hard links. Default count is one.
->
->    **User**: The user who owns the files.
->
->    **Group**: The group that has access to this file. Only one group can be the owner of a file at a time.
->
->    **File size**: Size of the file in bytes.
->
->    **Modification time**: The date and time the file was last modified.
->
->    **Filename**: Obviously, the name of the file or directory.
-{: .callout}
+## Who do these Permissions Apply To?
 
-## Who Permissions apply to
-
-user – The user permissions apply only the owner of the file or directory, they will not impact the actions of other users.
-
-group – The group permissions apply only to the group that has been assigned to the file or directory, they will not effect the actions of other users.
-
-others – The others permissions apply to all other users on the system, this is the permission group that you want to watch the mos
-
-> ## Users Groups and Others
->
->In Linux a user is just a login. As such, groups are nothing but the collection of users. Groups make it easy to manage users with the same security and access privileges. A user can be part of different groups.
->
->To find the group(s) a user belongs to, we run the following command:
->~~~
->$ groups nelle
->~~~
->{: .language-bash}
->
->
->~~~
->nelle : nelle sudo
->~~~
->{: .output}
-{: .callout}
-
+The third column of `ls -a` lists the **user** and **group** owners for each file. Groups are used to manage permissions over collections users. For example, users with admin privaleges are members of the `sudo` (super-user) group. The first set of `rwx` refers to the user, the second to the group and the last to all users that are not an owner or a member of the group. 
+ 
+On a Pawsey file-system you may see something like:
+~~~
+$ -rwxr-xr--  1 username interns0001       282 Jan  6  2022 code_for_project.py
+~~~
+From above, we see that `username` can read, write (modify) and execute `code_for_project.py` and that users in `interns0001` can read and execute `code_for_project.py`. User who are not `username` or not in the `interns0001` group are only able to read  `code_for_project.py`.
 
 # Changing Permissions
 
