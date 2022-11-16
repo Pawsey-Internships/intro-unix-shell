@@ -43,8 +43,6 @@ drwxr-xr-x 1 nelle nelle    54 Nov  3 08:40 writing
 
 There is a lot of information in these lines, but lets focus on the first column:
 
-![there are three sets of permissions, one for each of other, group and owner](../fig/permissions.png)
-
 **d**:	The file is a directory.
 
 **r**:	Permission to "read" a file (e.g. open a file in a text editor or copy a file).
@@ -55,8 +53,7 @@ There is a lot of information in these lines, but lets focus on the first column
 
 **-**:	If any character in `rwx` is replaced by `-`, that permission has been revoked.
 
-
-{: .callout}
+![there are three sets of permissions, one for each of other, group and owner](../fig/permissions.png)
 
 
 # Who do these Permissions Apply To?
