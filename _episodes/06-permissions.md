@@ -65,38 +65,41 @@ The third column of `ls -a` lists the **user** and **group** owners for each fil
  
 On a Pawsey file-system you may see something like:
 ~~~
-$ -rwxr-xr--  1 username interns0001       282 Jan  6  2022 code_for_project.py
+$ -rwxr-xr--  1 username interns0001 282 Jan  6  2022 code_for_project.py
 ~~~
 From above, we see that `username` can read, write (modify) and execute `code_for_project.py` and that users in `interns0001` can read and execute `code_for_project.py`. User who are not `username` or not in the `interns0001` group are only able to read  `code_for_project.py`.
 
 # Changing Permissions
 
-Sometimes you will need to be able to change the permissions of a file so other people can see or execute them. `chmod` (short for change mode) is the main method of doing this.
+To collaborate with other users you may need to change the permissions of a file. The`chmod` command (short for change mode) is the main method of doing this, it has the syntax:
 
-  The first argument you give to the “chmod” command is ‘u’, ‘g’, ‘o’. We use:
+	chmod [references][operator][modes] filename
+	
+**Note:** There are no spaces between `[references][operator][modes]`.
+
+The `[references]` value specifies which of the three groups you want to modify:
   - **u** for user
   - **g** for group
-  - **o** for others,
+  - **o** for others
+  - any combination of `u`, `g` and `o`.
 
-you can also use a combination of them (u,g,o).
-This specifies which of the three groups you want to modify.
-
-After this use:
+The `[operator]` value specfies wether you are adding, removing or assigning a permission:
 - **‘+’** for adding
 - **‘-‘** for removing
 - **“=”** for assigning a permission.
 
-Then specify the permission r,w or x you want to change.
-Here also you can use a combination of r,w,x.
-This specifies which of the three permissions “rwx” you want to modify
-You can use can use commas to modify more permissions
-Finally you will need the name of the file whose permission you are changing.
-For example:
+Finally, the `[modes]` value specifies the permission (or permissions) to modify:
+- **‘r’** read
+- **w** write
+- **x** execute
+- any combination of `r`, `w` and `x`
+
+For example, if `username` would like help debugging `code_for_project.py` from another member of their research group, they may want to add write permissions for users in the `interns0001` group:
+
 ~~~
-$ chmod o+x .bash_profile
+$ chmod g+w code_for_project.py
 ~~~
 {: .language-bash}
-which adds the execute permission for others on the file `.bash_profile`
 
 Here is a more complicated example
 ~~~
