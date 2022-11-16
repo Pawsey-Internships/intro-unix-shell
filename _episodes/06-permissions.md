@@ -49,15 +49,13 @@ Directories have a `d` in the File Type position.
 
 >## What do the letters really mean?
 >
->Read, write, execute and –
+> **r**:	Premission to "read" a file (e.g. open a in a text-editor or copy a file).
 >
->The ‘r’ means you can “read” the file’s contents.
+> **w**:	Premission to “write”, or modify, a file (e.g. save changes to a file a text-editor or delete a file).
 >
->The ‘w’ means you can “write”, or modify, the file’s contents.
+> **x**:	Premission to “execute” a file (e.g. run a BASH script using`./file.sh` command instead of `bash file.sh`).
 >
->The ‘x’ means you can “execute” the file. This permission is given only if the file is a program.
->
->If any of the “rwx” characters is replaced by a ‘-‘, then that permission has been revoked.
+> **-**:	If any character in `rwx` is replaced by `-`, that permission has been revoked.
 {: .callout}
 
 
