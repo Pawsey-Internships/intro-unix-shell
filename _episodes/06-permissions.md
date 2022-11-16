@@ -45,7 +45,7 @@ There is a lot of information in these lines but lets focus on the first column:
 
 ![there are three sets of permissions, one for each of other, group and owner](../fig/permissions.png)
 
-In the case of file type you can also find `d` which means the file is really a directory.
+Directories have a `d` in the File Type position.
 
 >## What do the letters really mean?
 >
