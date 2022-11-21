@@ -20,8 +20,5 @@ you to this powerful tool.
 > the word "file" and either "directory" or "folder" (two common words
 > for the same thing), you're ready for this lesson.
 >
-> If you're already comfortable manipulating files and directories,
-> searching for files with `grep` and `find`, and writing simple loops
-> and scripts, you probably want to explore the next lesson:
-> [shell-extras](https://carpentries-incubator.github.io/shell-extras/).
+> Also make sure you have read through the [Pawsey Internship Welcome Pack ](https://docs.google.com/document/d/1nuaTLX2YJAkATxj7oqHG_1kmzoaycZGl/edit)
 {: .prereq}
