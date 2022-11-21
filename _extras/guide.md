@@ -207,7 +207,6 @@ as long as learners using Windows do not run into roadblocks such as:
 
 *   On Windows machines
     if `nano` hasn't been properly installed with the
-    [Software Carpentry Windows Installer][windows-installer]
     it is possible to use `notepad` as an alternative.  There will be a GUI
     interface and line endings are treated differently, but otherwise, for
     the purposes of this lesson, `notepad` and `nano` can be used almost interchangeably.
@@ -259,10 +258,6 @@ but:
     (or become congested) during the lesson.
 
 Whatever you use,
-please *test it yourself* on a Windows machine *before* your workshop:
-things may always have changed behind your back since your last workshop.
-And please also make use of our
-[Software Carpentry Windows Installer][windows-installer].
+please *test it yourself* on a Windows machine *before* your workshop.
 
 [shebang]: http://www.in-ulm.de/~mascheck/various/shebang/
-[windows-installer]: {{ site.swc_github }}/windows-installer

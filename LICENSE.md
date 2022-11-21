@@ -23,11 +23,9 @@ license terms.
 
 Under the following terms:
 
-* **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © Software
-  Carpentry and, where practical, linking to
-  http://software-carpentry.org/), provide a [link to the
-  license][cc-by-human], and indicate if changes were made. You may do
+* **Attribution**---You must give appropriate credit 
+  your work is derived from work that is Copyright © 
+  and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.
 
@@ -71,13 +69,3 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Trademark
-
-"Software Carpentry" and "Data Carpentry" and their respective logos
-are registered trademarks of [Community Initiatives][CI].
-
-[cc-by-human]: https://creativecommons.org/licenses/by/4.0/
-[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
-[mit-license]: https://opensource.org/licenses/mit-license.html
-[ci]: http://communityin.org/
-[osi]: https://opensource.org
