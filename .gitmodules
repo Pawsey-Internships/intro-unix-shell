@@ -1,0 +1,6 @@
+[submodule "themes/pawsey"]
+	path = themes/pawsey
+	url = git@github.com:Pawsey-Internships/workshop-hugo-template
+[submodule "themes/learn"]
+	path = themes/learn
+	url = https://github.com/matcornic/hugo-theme-learn.git

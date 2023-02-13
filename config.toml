@@ -1,3 +1,13 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://pawsey-internships.github.io/intro-unix-shell/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Pawsey Intern Training: The Unix Shell'
+theme = "pawsey"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+disableBreadcrumb = false
+disableNextPrev = false
+themeVariant = "pawsey"
+disableLandingPageButton = true
