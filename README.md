@@ -23,3 +23,4 @@ ADD MENTORS HERE!
 - work out why tabs don't work
 - fix funky formatting with notices
 - recolour notices to match pawsey theme
+- either have text justified or left
