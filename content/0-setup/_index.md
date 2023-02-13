@@ -44,20 +44,9 @@ If none of the options below address your circumstances,
 try an online search for: Unix shell [your computer model] [your operating system].
 {{% /notice %}}
 
+{{< tabs groupID="accessing-shell">}}
 
-{::options parse_block_html="true" /}
-<div>
-<ul class="nav nav-tabs nav-justified" role="tablist">
-<li role="presentation" class="active"><a data-os="windows" href="#windows" aria-controls="Windows"
-role="tab" data-toggle="tab">Windows</a></li>
-<li role="presentation"><a data-os="macos" href="#macos" aria-controls="macOS" role="tab"
-data-toggle="tab">macOS</a></li>
-<li role="presentation"><a data-os="linux" href="#linux" aria-controls="Linux" role="tab"
-data-toggle="tab">Linux</a></li>
-</ul>
-
-<div class="tab-content">
-<article role="tabpanel" class="tab-pane active" id="windows">
+{{% tab name="Windows" %}}
 Computers with Windows operating systems do not automatically have a Unix Shell program
 installed.
 In this lesson, we encourage you to use an emulator included in [Git for Windows][install_shell],
@@ -73,9 +62,9 @@ which gives access to a Bash shell command-line tool in Windows 10.
 
 Please note that commands in the Windows Subsystem for Linux (WSL) may differ slightly
 from those shown in the lesson or presented in the workshop.
-</article>
+{{% /tab %}}
 
-<article role="tabpanel" class="tab-pane" id="macos">
+{{% tab name="MacOS" %}}
 For a Mac computer running macOS Mojave or earlier releases, the default Unix Shell is Bash.
 For a Mac computer running macOS Catalina or later releases, the default Unix Shell is Zsh.
 Your default shell is available via the Terminal program within your Utilities folder.
@@ -94,18 +83,17 @@ you can run it by opening a terminal and typing `bash`.
   (<b>Note</b> this will only change your shell for the current window/session.)
 
 [How to Use Terminal on a Mac][mac-terminal]
-</article>
+{{% /tab %}}
 
-<article role="tabpanel" class="tab-pane" id="linux">
+{{% tab name="Linux" %}}
 The default Unix Shell for Linux operating systems is usually Bash.
 On most versions of Linux, it is accessible by running the
 [Gnome Terminal][gnome-terminal] or [KDE Konsole][kde-konsole] or [xterm][xterm],
 which can be found via the applications menu or the search bar.
 If your machine is set up to use something other than Bash,
 you can run it by opening a terminal and typing `bash`.
-</article>
-</div>
-</div>
+{{% /tab %}}
+{{< tabs >}}
 
 [zip-file]: {{ page.root }}/data/shell-lesson-data.zip
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
