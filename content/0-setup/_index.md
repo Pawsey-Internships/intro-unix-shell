@@ -6,6 +6,8 @@ chapter = true
 
 # Setup
 
+{{%attachments style="grey" /%}}
+
 ## 1. Download files
 
 - Download the attached **shell-lesson-data.zip** (link below) and move it to your Desktop.
@@ -13,11 +15,9 @@ chapter = true
    **Let your instructor know if you need help with this step**.
    You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
 
-{{%attachments style="grey" /%}}
-
 ## 2. Install software
 If you do not already have the shell software installed, you will need to
-[download and install - FIX PAGE LINK][install_shell] it.
+[download and install](https://carpentries.github.io/workshop-template/#shell) it.
 
 ## 3. Open a new shell
 After installing the software
@@ -57,7 +57,7 @@ menu.
 
 **For advanced users:**
 
-As an alternative to Git for Windows you may wish to [Install the Windows Subsystem for Linux][wsl]
+As an alternative to Git for Windows you may wish to [Install the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 which gives access to a Bash shell command-line tool in Windows 10.
 
 Please note that commands in the Windows Subsystem for Linux (WSL) may differ slightly
@@ -82,23 +82,16 @@ If your machine is set up to use something other than Bash,
 you can run it by opening a terminal and typing `bash`.
   (<b>Note</b> this will only change your shell for the current window/session.)
 
-[How to Use Terminal on a Mac][mac-terminal]
+[How to Use Terminal on a Mac](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/))
 {{% /tab %}}
 
 {{% tab name="Linux" %}}
 The default Unix Shell for Linux operating systems is usually Bash.
 On most versions of Linux, it is accessible by running the
-[Gnome Terminal][gnome-terminal] or [KDE Konsole][kde-konsole] or [xterm][xterm],
+[Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/) or [KDE Konsole](https://konsole.kde.org/) or [xterm](https://en.wikipedia.org/wiki/Xterm),
 which can be found via the applications menu or the search bar.
 If your machine is set up to use something other than Bash,
 you can run it by opening a terminal and typing `bash`.
 {{% /tab %}}
 {{< tabs >}}
 
-[zip-file]: {{ page.root }}/data/shell-lesson-data.zip
-[wsl]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-[mac-terminal]: http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/
-[gnome-terminal]: https://help.gnome.org/users/gnome-terminal/stable/
-[kde-konsole]: https://konsole.kde.org/
-[xterm]: https://en.wikipedia.org/wiki/Xterm
-[install_shell]: https://carpentries.github.io/workshop-template/#shell
