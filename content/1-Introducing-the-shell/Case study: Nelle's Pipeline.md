@@ -1,5 +1,5 @@
 +++
-title = "c. Exercises"
+title = "c. Case Study: Nelle's Pipeline"
 weight = 2
 chapter = true
 +++
