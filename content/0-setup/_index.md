@@ -10,7 +10,7 @@ chapter = true
 
 ## 1. Download files
 
-- Download the attached **shell-lesson-data.zip** (link below) and move it to your Desktop.
+- Download the attached [shell-lesson-data.zip (CHECK!)](https://pawsey-internships.github.io/intro-unix-shell/0-setup/_index.files/shell-lesson-data.zip) and move it to your Desktop.
 - Unzip/extract the file.
    **Let your instructor know if you need help with this step**.
    You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
@@ -20,13 +20,12 @@ If you do not already have the shell software installed, you will need to
 [download and install](https://carpentries.github.io/workshop-template/#shell) it.
 
 ## 3. Open a new shell
-After installing the software
-- Open a terminal.
+
+- After installing the software, open a terminal.
    If you're not sure how to open a terminal on your operating system, see the instructions below.
 - In the terminal type `cd` then press the <kbd>Return</kbd> key.
-   This step will make sure you start with your home folder as your working directory.
-
-In the lesson, you will find out how to access the data files in this folder.
+   This step will make sure you start with your home folder as your working directory. In the lesson, you will find 
+   out how to access the data files in this folder.
 
 {{% notice note %}}
 Where to type commands: How to open a new shell
