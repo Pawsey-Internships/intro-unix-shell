@@ -1,5 +1,5 @@
 +++
-title = "The Biased Mind"
+title = "Intro to the Unix Shell"
 weight = 1
 chapter = true
 +++
