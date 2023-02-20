@@ -1,7 +1,7 @@
 baseURL = 'https://pawsey-internships.github.io/intro-unix-shell/'
 languageCode = 'en-us'
 title = 'Pawsey Intern Training: The Unix Shell'
-theme = "pawsey"
+theme = "learn"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
