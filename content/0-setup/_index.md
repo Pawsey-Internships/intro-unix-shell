@@ -28,7 +28,7 @@ If you do not already have the shell software installed, you will need to
    out how to access the data files in this folder.
 
 {{% notice note %}}
-Where to type commands: How to open a new shell
+#### Where to type commands: How to open a new shell
 
 The shell is a program that enables us to send commands to the computer and receive output.
 It is also referred to as the terminal or command line.
@@ -40,7 +40,7 @@ There are also options for identifying and downloading a Unix Shell program,
 a Linux/UNIX emulator, or a program to access a Unix Shell on a server.
 
 If none of the options below address your circumstances,
-try an online search for: Unix shell [your computer model] [your operating system].
+try an online search for: `Unix shell [your computer model] [your operating system]`.
 {{% /notice %}}
 
 {{< tabs groupID="accessing-shell">}}

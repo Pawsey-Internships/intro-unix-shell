@@ -193,7 +193,9 @@ div.notices p {
     padding : 0;
     line-height : 30px;
     text-align: left !important;
-    text-indent: 1em;
+    text-indent: 2em;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
 }
 
 div.notices p:first-child:after {
