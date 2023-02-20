@@ -4,7 +4,7 @@ weight = 2
 chapter = true
 +++
 
-# Understanding Permissions
+## Understanding Permissions
 
 Unix-like operating systems allow multiple users to work on the same server simultaneously without disrupting each other.
 
