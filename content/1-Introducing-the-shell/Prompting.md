@@ -21,7 +21,7 @@ when typing commands, either from these lessons or from other sources,
 *do not type the prompt*, only the commands that follow it.
 Also note that after you type a command, you have to press the <kbd>Enter</kbd> key to execute it.
 
-{{% notice note %}}
+{{% notice note Note%}}
 ### Other Prompts
 Depending on your linux installation you may have a different prompt
 For example
@@ -48,7 +48,7 @@ Desktop     Downloads   Movies      Pictures
 Documents   Library     Music       Public
 ~~~
 
-{{% notice note %}}
+{{% notice note Note%}}
 ### Command not found
 If the shell can't find a program whose name is the command you typed, it
 will print an error message such as:

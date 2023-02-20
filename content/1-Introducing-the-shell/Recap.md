@@ -4,7 +4,7 @@ weight = 2
 chapter = true
 +++
 
-{{% notice info %}}
+{{% notice info Recap %}}
 **key points**:
 - "A shell is a program whose primary purpose is to read commands and run other programs."
 -  "This lesson uses Bash, the default shell in many implementations of Unix."

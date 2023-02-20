@@ -6,7 +6,7 @@ chapter = true
 
 # Introducing the Shell
 
-{{% notice note %}}
+{{% notice note Overview%}}
 **teaching:** 5 minutes
 
 **exercises:** 0 minutes
