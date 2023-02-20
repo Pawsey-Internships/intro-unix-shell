@@ -81,7 +81,7 @@ If your machine is set up to use something other than Bash,
 you can run it by opening a terminal and typing `bash`.
   (<b>Note</b> this will only change your shell for the current window/session.)
 
-[How to Use Terminal on a Mac](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/))
+[How to Use Terminal on a Mac](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/)
 {{% /tab %}}
 
 {{% tab name="Linux" %}}
