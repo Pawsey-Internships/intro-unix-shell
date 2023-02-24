@@ -1,10 +1,8 @@
 +++
 title = "d. Exploring Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Exploring other directories
 
 Not only can we use `ls` on the current working directory, 
 but we can use it to list the contents of a different directory.

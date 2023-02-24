@@ -1,10 +1,9 @@
 +++
 title = "e. Spaces in Names"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Spaces in Names
 
 Spaces are used to separate the elements of the list that we are going to loop over.
 If one of those elements contains a space character, we need to surround it with

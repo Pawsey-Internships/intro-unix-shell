@@ -1,10 +1,9 @@
 +++
 title = "f. Command Syntax"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## General Syntax of a Shell Command
 We have now encountered commands, options, and arguments,
 but it is perhaps useful to formalise some terminology.
 

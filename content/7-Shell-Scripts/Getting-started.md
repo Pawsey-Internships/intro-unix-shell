@@ -1,7 +1,7 @@
 +++
 title = "a. Getting Started"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Getting Started with scripts

@@ -1,10 +1,8 @@
 +++
 title = "i. Exercises II"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Exercises II
 
 
 ## Doing a Dry Run

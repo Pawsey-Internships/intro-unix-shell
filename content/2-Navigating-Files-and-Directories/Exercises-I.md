@@ -1,12 +1,8 @@
 +++
 title = "c. Exercises I"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Exercises I
-
-
 
 #### Exploring More `ls` Flags
 
@@ -24,7 +20,7 @@ this makes the file size '**h**uman readable', i.e. displaying something like `5
 instead of `5369`.{{% /expand%}}
 
 
-## Listing in Reverse Chronological Order
+#### Listing in Reverse Chronological Order
 
 By default, `ls` lists the contents of a directory in alphabetical
 order by name. The command `ls -t` lists items by time of last

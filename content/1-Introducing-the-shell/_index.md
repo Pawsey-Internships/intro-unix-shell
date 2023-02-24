@@ -1,10 +1,8 @@
 +++
 title = "1. Introducing the Shell"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# Introducing the Shell
 
 {{% notice note Overview%}}
 **teaching:** 5 minutes

@@ -1,10 +1,8 @@
 +++
 title = "g. Nelle's Pipeline: Processing Files"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Nelle's Pipeline: Processing Files
 
 Nelle is now ready to process her data files using `goostats.sh` ---
 a shell script written by her supervisor.

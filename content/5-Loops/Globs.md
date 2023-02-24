@@ -1,7 +1,7 @@
 +++
 title = "d. Globs"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Using Glob

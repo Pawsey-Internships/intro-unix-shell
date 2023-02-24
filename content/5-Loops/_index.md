@@ -1,10 +1,8 @@
 +++
 title = "5. Loops"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# Loops
 
 {{% notice note %}}
 **teaching:** 40 minutes

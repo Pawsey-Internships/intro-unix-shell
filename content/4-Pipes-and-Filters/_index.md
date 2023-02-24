@@ -1,10 +1,8 @@
 +++
 title = "4. Pipes and Filters"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# Pipes and filters
 
 {{% notice note %}}
 **teaching:** 15 minutes

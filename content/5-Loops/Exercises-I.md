@@ -1,10 +1,8 @@
 +++
 title = "c. Exercises I"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Exercises I
 
 ## Variables in Loops
 

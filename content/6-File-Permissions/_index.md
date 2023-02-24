@@ -1,10 +1,8 @@
 +++
 title = "6. File Permissions"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# File Permissions
 
 {{% notice note %}}
 **teaching:** 20 minutes

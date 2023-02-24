@@ -1,10 +1,9 @@
 +++
 title = "f. Copying with Glob"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Copying with Glob
 
 We would like to modify each of the files in `shell-lesson-data/creatures`, but also save a version
 of the original files, naming the copies `original-basilisk.dat` and `original-unicorn.dat`.

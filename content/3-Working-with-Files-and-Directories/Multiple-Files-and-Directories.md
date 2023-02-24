@@ -1,7 +1,7 @@
 +++
 title = "f. Multiple Files and Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Operations with multiple files and directories

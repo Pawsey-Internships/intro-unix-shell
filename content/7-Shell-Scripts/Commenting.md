@@ -1,10 +1,9 @@
 +++
 title = "d. Commenting"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Commenting
 
 We can now run:
 

@@ -1,10 +1,8 @@
 +++
 title = "c. Filtering Output"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Filtering output
 
 Next we'll use the `sort` command to sort the contents of the `lengths.txt` file.
 But first we'll use an exercise to learn a little about the sort command:

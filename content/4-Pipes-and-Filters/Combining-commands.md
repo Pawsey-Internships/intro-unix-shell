@@ -1,10 +1,10 @@
 +++
 title = "e. Combining Commands"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Combining multiple commands
+#### Combining multiple commands
 Nothing prevents us from chaining pipes consecutively.
 We can for example send the output of `wc` directly to `sort`,
 and then the resulting output to `head`.

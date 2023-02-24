@@ -1,7 +1,7 @@
 +++
 title = "b. Creating Files"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ### Create a text file

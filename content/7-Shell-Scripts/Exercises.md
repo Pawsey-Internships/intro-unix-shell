@@ -1,10 +1,9 @@
 +++
 title = "e. Exercises I"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Exercises I
 
 What if we want to process many files in a single pipeline?
 For example, if we want to sort our `.pdb` files by length, we would type:

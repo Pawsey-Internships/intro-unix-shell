@@ -1,7 +1,7 @@
 +++
 title = "h. History"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Beginning and End

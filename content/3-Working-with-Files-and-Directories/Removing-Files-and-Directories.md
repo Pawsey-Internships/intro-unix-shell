@@ -1,10 +1,9 @@
 +++
 title = "e. Removing Files and Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Removing files and directories
 
 Returning to the `shell-lesson-data` directory,
 let's tidy up this directory by removing the `quotes.txt` file we created.

@@ -1,10 +1,8 @@
 +++
 title = "3. Working with Files and Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# Working with Files and Directories
 
 {{% notice note %}}
 **teaching:** 30 minutes

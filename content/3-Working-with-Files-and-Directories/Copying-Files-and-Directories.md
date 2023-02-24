@@ -1,10 +1,9 @@
 +++
 title = "d. Copying Files and Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Copying files and directories
 
 The `cp` command works very much like `mv`, except it copies 
 a file instead of moving it. We can check that it did the right

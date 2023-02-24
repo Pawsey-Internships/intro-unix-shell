@@ -1,10 +1,8 @@
 +++
 title = "c. Exercises"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Exercises
 
 ## Checking Permissions
 

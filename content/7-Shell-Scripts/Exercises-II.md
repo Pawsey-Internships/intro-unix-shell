@@ -1,10 +1,8 @@
 +++
 title = "g. Exercises II"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Exercises II
 
 #### Variables in Shell Scripts
 

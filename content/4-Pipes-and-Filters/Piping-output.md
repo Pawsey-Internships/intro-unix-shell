@@ -1,7 +1,7 @@
 +++
 title = "d. Piping Output"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Piping: Passing output to another command

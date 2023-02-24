@@ -1,7 +1,7 @@
 +++
 title = "f. Nelle's Pipeline - Scripting"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Nelle's Pipeline: Creating a Script

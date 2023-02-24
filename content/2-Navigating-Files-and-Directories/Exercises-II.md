@@ -1,10 +1,8 @@
 +++
 title = "e. Exercises II"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Exercises II
 
 #### Absolute vs. Relative Paths
 

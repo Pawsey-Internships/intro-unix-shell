@@ -1,10 +1,9 @@
 +++
 title = "a. Creating Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Creating directories
 We now know how to explore files and directories,
 but how do we create them in the first place?
 

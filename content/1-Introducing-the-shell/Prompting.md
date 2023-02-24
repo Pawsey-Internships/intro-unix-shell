@@ -1,10 +1,8 @@
 +++
 title = "b. Prompting"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Prompting
 
 Let’s get started.
 

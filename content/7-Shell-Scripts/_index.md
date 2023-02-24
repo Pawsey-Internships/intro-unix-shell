@@ -1,10 +1,8 @@
 +++
 title = "7. Shell Scripts"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# Shell Scripts
 
 {{% notice note %}}
 **teaching:** 30 minutes

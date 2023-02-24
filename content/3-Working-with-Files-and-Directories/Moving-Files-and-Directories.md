@@ -1,11 +1,10 @@
 +++
 title = "c. Moving Files and Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 
-## Moving files and directories
 Returning to the `shell-lesson-data` directory,
 
 ```Bash

@@ -1,10 +1,8 @@
 +++
 title = "b. Getting Help"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Getting Help
 
 
 `ls` has lots of other **options**. There are two common ways to find out how

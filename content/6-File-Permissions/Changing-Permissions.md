@@ -1,10 +1,8 @@
 +++
 title = "b. Changing Permissions"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Changing Permissions
 
 To collaborate with other users, you may need to change the permissions of a file. The'chmod' command (short for change mode) is the main method of doing this. It has the syntax:
 

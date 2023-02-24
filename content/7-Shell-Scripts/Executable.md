@@ -1,11 +1,8 @@
 +++
 title = "b. Executable Scripts"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Executable scripts
-
 
 You can avoid having to run you script with `bash middle.sh` by giving the script the execute permission:
 ```Bash

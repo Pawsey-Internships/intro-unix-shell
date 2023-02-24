@@ -1,10 +1,8 @@
 +++
 title = "2. Navigating Files and Directories"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# Navigating Files and Directories
 
 {{% notice note %}}
 **teaching:** 30 minutes

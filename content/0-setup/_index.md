@@ -1,10 +1,8 @@
 +++
 title = "Setup"
 weight = 1
-chapter = true
+chapter = false
 +++
-
-# Setup
 
 {{%attachments style="grey" /%}}
 

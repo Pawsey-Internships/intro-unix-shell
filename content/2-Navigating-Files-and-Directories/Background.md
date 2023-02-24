@@ -1,10 +1,8 @@
 +++
 title = "a. Background"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Background 
 
 The part of the operating system responsible for managing files and directories
 is called the **file system**. It organizes our data into files,

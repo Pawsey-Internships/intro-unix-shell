@@ -1,10 +1,9 @@
 +++
 title = "a. Background"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Background
 
 Now that we know a few basic commands,
 we can finally look at the shell's most powerful feature:

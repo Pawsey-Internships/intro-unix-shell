@@ -1,7 +1,7 @@
 +++
 title = "c. Case Study: Nelle's Pipeline"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Nelle's Pipeline: A Typical Problem

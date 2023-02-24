@@ -1,10 +1,8 @@
 +++
 title = "c. Making Scripts Versatile"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Making Scripts Versatile
 
 What if we want to select lines from an arbitrary file?
 We could edit `middle.sh` each time to change the filename,

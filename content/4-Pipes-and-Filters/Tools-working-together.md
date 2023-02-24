@@ -1,10 +1,9 @@
 +++
 title = "f. Tools Working Together"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Tools designed to work together
 This idea of linking programs together is why Unix has been so successful.
 Instead of creating enormous programs that try to do many different things,
 Unix programmers focus on creating lots of simple tools that each do one job well,

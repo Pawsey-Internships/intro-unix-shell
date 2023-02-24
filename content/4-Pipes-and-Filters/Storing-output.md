@@ -1,10 +1,10 @@
 +++
 title = "b. Storing Output"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Storing output from commands in files
+#### Storing output from commands in files
 
 Which of these files contains the fewest lines?
 It's an easy question to answer when there are only six files,

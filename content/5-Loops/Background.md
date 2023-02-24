@@ -1,10 +1,9 @@
 +++
 title = "a. Background"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Background
 
 **Loops** are a programming construct which allow us to repeat a command or set of commands
 for each item in a list.
