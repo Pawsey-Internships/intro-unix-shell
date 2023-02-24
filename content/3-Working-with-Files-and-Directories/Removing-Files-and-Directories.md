@@ -24,7 +24,7 @@ ls: cannot access 'quotes.txt': No such file or directory
 ```
 
 {{% notice note %}}
-## Deleting Is Forever
+#### Deleting Is Forever
 The Unix shell doesn't have a trash bin that we can recover deleted
 files from (though most graphical interfaces to Unix do).  Instead,
 when we delete files, they are unlinked from the file system so that

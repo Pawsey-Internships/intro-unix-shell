@@ -4,8 +4,6 @@ weight = 2
 chapter = false
 +++
 
-#### Storing output from commands in files
-
 Which of these files contains the fewest lines?
 It's an easy question to answer when there are only six files,
 but what if there were 6000?
@@ -45,7 +43,7 @@ $ cat lengths.txt
 ~~~
 
 {{% notice note %}}
-## Output Page by Page
+#### Output Page by Page
 
 We'll continue to use `cat` in this lesson, for convenience and consistency,
 but it has the disadvantage that it always dumps the whole file onto your screen.

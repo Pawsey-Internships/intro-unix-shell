@@ -7,7 +7,7 @@ chapter = false
 We now know how to explore files and directories,
 but how do we create them in the first place?
 
-### Step one: see where we are and what we already have
+## Step one: see where we are and what we already have
 Let's go back to our `shell-lesson-data` directory on the Desktop
 and use `ls -F` to see what it contains:
 
@@ -27,7 +27,7 @@ $ ls -F
 creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.pdf  writing/
 ~~~
 
-### Create a directory
+## Create a directory
 
 Let's create a new directory called `thesis` using the command `mkdir thesis`
 (which has no output):
@@ -64,7 +64,7 @@ in a single operation:
 $ mkdir -p project/data project/results
 ```
 {{% notice note %}}
-## Two ways of doing the same thing
+#### Two ways of doing the same thing
 Using the shell to create a directory is no different than using a file explorer.
 If you open the current directory using your operating system's graphical file explorer,
 the `thesis` directory will appear there too.
@@ -74,7 +74,7 @@ the files and directories themselves are the same.
 {{% /notice %}}
 
 {{% notice note %}}
-## Good names for files and directories
+#### Good names for files and directories
 
 Complicated names of files and directories can make your life painful
 when working on the command line. Here we provide a few useful

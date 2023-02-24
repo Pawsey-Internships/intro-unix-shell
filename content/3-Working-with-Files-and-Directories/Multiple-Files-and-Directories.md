@@ -4,8 +4,6 @@ weight = 2
 chapter = false
 +++
 
-## Operations with multiple files and directories
-
 Oftentimes one needs to copy or move several files at once.
 This can be done by providing a list of individual filenames,
 or specifying a naming pattern using wildcards.
@@ -51,8 +49,6 @@ cp: target ‘morse.txt’ is not a directory
 {{% /expand %}}
 
 ## Using wildcards for accessing multiple files at once
-
-#### Wildcards
 
 `*` is a **wildcard**, which matches zero or more  characters.
 Let's consider the `shell-lesson-data/molecules` directory:
@@ -224,7 +220,7 @@ as the 'data' directory.
 {{% /expand %}}
 
 {{% notice note%}}
-## Creating Multiple Directories at once
+#### Creating Multiple Directories at once
 Bash also supports brace expansion whereby multiple paths can be
 created with a single expression.
 For example to reproduce the folder structure only a single command is needed:

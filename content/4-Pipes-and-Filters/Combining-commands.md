@@ -4,7 +4,6 @@ weight = 2
 chapter = false
 +++
 
-#### Combining multiple commands
 Nothing prevents us from chaining pipes consecutively.
 We can for example send the output of `wc` directly to `sort`,
 and then the resulting output to `head`.

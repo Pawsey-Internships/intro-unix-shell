@@ -4,7 +4,7 @@ weight = 2
 chapter = false
 +++
 
-## Nelle's Pipeline: Creating a Script
+## Creating a script
 
 Nelle's supervisor insisted that all her analytics must be reproducible.
 The easiest way to capture all the steps is in a script.

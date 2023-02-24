@@ -1,10 +1,9 @@
 +++
 title = "a. Grepping Around"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Grepping Around
 
 In the same way that many of us now use 'Google' as a
 verb meaning 'to find', Unix programmers often use the word 'grep'.
@@ -37,7 +36,7 @@ Software is like that.
 ~~~
 
 {{% notice note %}}
-## Forever, or Five Years
+#### Forever, or Five Years
 
 We haven't linked to the original haiku because
 they don't appear to be on *Salon*'s site any longer.

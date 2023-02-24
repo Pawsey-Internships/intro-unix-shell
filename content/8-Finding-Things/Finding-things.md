@@ -1,7 +1,7 @@
 +++
 title = "e. Finding Things"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 

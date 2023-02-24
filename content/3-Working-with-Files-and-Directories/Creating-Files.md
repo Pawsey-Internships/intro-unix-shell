@@ -4,7 +4,7 @@ weight = 2
 chapter = false
 +++
 
-### Create a text file
+## Create a text file
 Let's change our working directory to `thesis` using `cd`,
 then run a text editor called Nano to create a file called `draft.txt`:
 
@@ -14,7 +14,7 @@ $ nano draft.txt
 ```
 
 {{% notice note %}}
-## Which Editor?
+#### Which Editor?
 
 When we say, '`nano` is a text editor' we really do mean 'text': it can
 only work with plain character data, not tables, images, or any other
@@ -97,7 +97,7 @@ $ touch my_file.txt
 {{% /expand%}}
 
 {{% notice note %}}
-## What's In A Name?
+#### What's In A Name?
 
 You may have noticed that all of Nelle's files are named 'something dot
 something', and in this part of the lesson, we always used the extension

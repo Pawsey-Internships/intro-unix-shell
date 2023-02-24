@@ -4,7 +4,7 @@ weight = 2
 chapter = false
 +++
 
-## Checking Permissions
+#### Checking Permissions
 
 I am logged in as `nelle` and this is my output of `ls -la` command
 
@@ -28,7 +28,7 @@ Will adam be able to move a file into the documents directory?
 No Bob belongs to the “others” category, which doesn’t have the write permission on the folder
 {{% /expand %}}
 
-## Changing Permissions
+#### Changing Permissions
 
 What Permissions will the following command give?
 ~~~
@@ -50,7 +50,7 @@ chmod u+rw,g=r,o=x
 We set the user permissions to read (r) write (w), the group permissions to read and other permissions to execute
 {{% /expand %}}
 
-## Tricky Questions
+#### Tricky Questions
 
 if a directory with ” r w x r w x r w x” permissions is copied using the cp command, will the permissions be the same on the new directory ?
 {{% expand "Solution" %}}

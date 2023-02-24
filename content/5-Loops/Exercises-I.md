@@ -4,7 +4,7 @@ weight = 2
 chapter = false
 +++
 
-## Variables in Loops
+#### Variables in Loops
 
 This exercise refers to the `shell-lesson-data/molecules` directory.
 `ls` gives the following output:
@@ -71,7 +71,7 @@ propane.pdb
 ```
 {{% /expand %}}
 
-## Limiting Sets of Files
+#### Limiting Sets of Files
 
 What would be the output of running the following loop in the
 `shell-lesson-data/molecules` directory?

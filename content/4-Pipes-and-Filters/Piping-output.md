@@ -4,7 +4,6 @@ weight = 2
 chapter = false
 +++
 
-## Piping: Passing output to another command
 In our example of finding the file with the fewest lines,
 we are using two intermediate files `lengths.txt` and `sorted-lengths.txt` to store output.
 This is a confusing way to work because

@@ -23,7 +23,7 @@ to use a command and what options it accepts:
 
 We'll describe both ways below.
 
-#### The `--help` option
+## The `--help` option
 
 Many bash commands, and programs that people have written that can be
 run from within bash, support a `--help` option to display more
@@ -63,7 +63,7 @@ Mandatory arguments to long options are mandatory for short options, too.
 
 
 {{% notice note %}}
-## Unsupported command-line options
+#### Unsupported command-line options
 If you try to use an option (flag) that is not supported, `ls` and other commands
 will usually print an error message similar to:
 
@@ -98,7 +98,7 @@ If so, you can move between hits using <kbd>N</kbd> (for moving forward) and
 To **quit** the `man` pages, press <kbd>Q</kbd>.
 
 {{% notice note %}}
-## Manual pages on the web
+#### Manual pages on the web
 Of course, there is a third way to access help for commands:
 searching the internet via your web browser.
 When using internet search, including the phrase `unix man page` in your search

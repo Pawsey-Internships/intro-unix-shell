@@ -1,11 +1,9 @@
 +++
 title = "d. Sedding Together"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-
-## Introduction to the SED Command
 
 `sed` is a command in UNIX that is short for stream editor. `sed` is a powerful tool
 for perfoming actions like subsituting (replacing), inserting, and removing data

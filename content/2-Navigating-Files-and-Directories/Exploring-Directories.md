@@ -163,7 +163,7 @@ which means 'the current working directory'.
 It may seem redundant to have a name for it, but we'll see some uses for it soon.
 
 {{% notice note %}}
-## Command Line Flags
+#### Command Line Flags
 
 In most command line tools, multiple options can be combined
 with a single `-` and no spaces between the options: `ls -F -a` is
@@ -178,7 +178,7 @@ $ ls -larh
 {{% /notice %}}
 
 {{% notice note %}}
-## Other Hidden Files
+#### Other Hidden Files
 
 In addition to the hidden directories `..` and `.`, you may also see a file
 called `.bash_profile`. This file usually contains shell configuration
@@ -257,7 +257,7 @@ $ cd /Users/nelle/Desktop/shell-lesson-data
 Run `pwd` and `ls -F` to ensure that we're in the directory we expect.
 
 {{% notice note %}}
-## Two More Shortcuts
+#### Two More Shortcuts
 
 The shell interprets a tilde (`~`) character at the start of a path to
 mean "the current user's home directory". For example, if Nelle's home

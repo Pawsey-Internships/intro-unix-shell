@@ -32,7 +32,7 @@ Here,the computer's response is `/Users/nelle`,
 which is Nelle's **home directory**:
 
 {{% notice note %}}
-## Home Directory Variation
+#### Home Directory Variation
 
 The home directory path will look different on different operating systems.
 On Linux, it may look like `/home/nelle`,
@@ -80,7 +80,7 @@ we know that `/Users` is stored inside the root directory `/`
 because its name begins with `/`.
 
 {{% notice note %}}
-## Slashes
+#### Slashes
 
 Notice that there are two meanings for the `/` character.
 When it appears at the front of a file or directory name,
@@ -93,7 +93,7 @@ your home directory to start. Because Nelle is the user in our
 examples here, therefore we get `/Users/nelle` as our home directory.
 
 {{% notice note %}}
-## Clearing your terminal
+#### Clearing your terminal
 
 If your screen gets too cluttered, you can clear your terminal using the
 `clear` command. You can still access previous commands using <kbd>↑</kbd>

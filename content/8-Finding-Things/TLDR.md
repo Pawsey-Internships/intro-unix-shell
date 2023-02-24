@@ -1,7 +1,7 @@
 +++
 title = "f. TLDR"
 weight = 2
-chapter = true
+chapter = false
 +++
 
 ## Too Long Didn't Read (TLDR)

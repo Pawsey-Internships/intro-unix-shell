@@ -89,7 +89,7 @@ lengths of our files ordered from least to greatest, the output of `head` must b
 the file with the fewest lines.
 
 {{% notice note %}}
-## Redirecting to the same file = Bad
+#### Redirecting to the same file = Bad
 
 It's a very bad idea to try redirecting
 the output of a command that operates on a file

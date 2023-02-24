@@ -47,7 +47,7 @@ The `-m` and `-w` options can also be used with the `wc` command, to show
 only the number of characters or the number of words in the files.
 
 {{% notice note %}}
-## Why Is My Code Hanging?
+#### Why Is My Code Hanging?
 
 What happens if a command is supposed to process a file, but we
 don't give it a filename? For example, what if we type:

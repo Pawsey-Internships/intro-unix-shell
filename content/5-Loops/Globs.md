@@ -4,8 +4,6 @@ weight = 2
 chapter = false
 +++
 
-## Using Glob
-
 
 ## The advantages of globs
 Glob expansion with characters like `*` is fast and efficient. Do not be tempted to use `ls`

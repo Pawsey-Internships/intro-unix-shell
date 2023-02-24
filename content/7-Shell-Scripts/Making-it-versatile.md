@@ -50,9 +50,9 @@ ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
 ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
 ~~~
 
- ## Double-Quotes Around Arguments
 
 {{% notice note %}}
+ #### Double-Quotes Around Arguments
 For the same reason that we put the loop variable inside double-quotes,
 in case the filename happens to contain any spaces,
 we surround `$1` with double-quotes.

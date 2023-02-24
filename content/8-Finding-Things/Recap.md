@@ -1,6 +1,6 @@
 +++
 title = "g. Recap"
-chapter = true
+chapter = false
 +++
 
 {{% notice info %}}

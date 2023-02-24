@@ -5,7 +5,7 @@ chapter = false
 +++
 
 
-## Doing a Dry Run
+#### Doing a Dry Run
 
 A loop is a way to do many things at once --- or to make many mistakes at
 once if it does the wrong thing. One way to check what a loop *would* do
@@ -55,7 +55,7 @@ Try both versions for yourself to see the output! Be sure to open the
 `all.pdb` file to view its contents.
 {{% /expand %}}
 
-## Nested Loops
+#### Nested Loops
 
 Suppose we want to set up a directory structure to organize
 some experiments measuring reaction rate constants with different compounds

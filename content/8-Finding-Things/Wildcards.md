@@ -1,10 +1,8 @@
 +++
 title = "c. Wildcards"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-## Wildcards
 
 `grep`'s real power doesn't come from its options, though; it comes from
 the fact that patterns can include wildcards. (The technical name for

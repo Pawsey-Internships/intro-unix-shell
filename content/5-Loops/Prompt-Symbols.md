@@ -30,7 +30,7 @@ For the third iteration, `$filename` becomes `unicorn.dat`, so the shell runs th
 on that file, and `tail` on the output of that. Since the list was only three items, the shell exits the `for` loop.
 
 {{% notice note %}}
-## Same Symbols, Different Meanings
+#### Same Symbols, Different Meanings
 
 Here we see `>` being used as a shell prompt, whereas `>` is also
 used to redirect output.

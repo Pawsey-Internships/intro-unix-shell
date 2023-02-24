@@ -1,10 +1,8 @@
 +++
 title = "8. Finding Things"
 weight = 2
-chapter = true
+chapter = false
 +++
-
-# Finding Things
 
 {{% notice note %}}
 **teaching:** 15 minutes

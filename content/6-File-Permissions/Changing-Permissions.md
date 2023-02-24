@@ -35,7 +35,7 @@ $ chmod g+w code_for_project.py
 
 
 {{% notice note %}}
-## Octal permissions
+#### Octal permissions
 
 ![Octal file permissions](images/octal-permissions.jpg)
 Given that permissions need to be stored for every single file and directory, the storage

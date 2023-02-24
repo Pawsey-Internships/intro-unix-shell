@@ -36,7 +36,7 @@ There is a lot of information in these lines, but lets focus on the first column
 ![there are three sets of permissions, one for each of other, group and owner](images/permissions.png)
 
 
-# Who do these Permissions Apply To?
+## Who do these Permissions Apply To?
 
 The third column of `ls -a` lists the **user** and **group** owners for each file. Groups are used to manage permissions over collections users. For example, users with admin privileges are members of the `sudo` (super-user) group. 
 

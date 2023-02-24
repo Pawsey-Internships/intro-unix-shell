@@ -1,10 +1,9 @@
 +++
 title = "b. Grep Flags"
 weight = 2
-chapter = true
+chapter = false
 +++
 
-## Grep Flags
 
 To restrict matches to lines containing the word 'The' on its own,
 we can give `grep` with the `-w` option. This will limit matches to word boundaries.
