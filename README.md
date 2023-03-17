@@ -20,10 +20,3 @@ have contributed to the building of this workshop:
 * [Melissa Speer](https://pawsey.org.au/alumni/)
 * [David Adams](https://pawsey.org.au/alumni/)
 * [Emily Kerrison](https://pawsey.org.au/alumni/)
-
-
-## Fixes to implement
-
-- fill out readme properly (is there anything more to add?)
-- add past mentors to list of contributors/maintainers
-- either have text justified or left
