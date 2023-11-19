@@ -4,7 +4,6 @@ weight = 1
 chapter = false
 +++
 
-{{%attachments style="grey" /%}}
 
 ## 1. Download files
 
