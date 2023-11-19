@@ -8,7 +8,7 @@ chapter = false
 
 ## 1. Download files
 
-- Download the attached [shell-lesson-data.zip (CHECK!)](https://pawsey-internships.github.io/intro-unix-shell/0-setup/_index.files/shell-lesson-data.zip) and move it to your Desktop.
+- Download the attached [shell-lesson-data.zip (CHECK!)](https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip) and move it to your Desktop.
 - Unzip/extract the file.
    **Let your instructor know if you need help with this step**.
    You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
