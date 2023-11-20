@@ -51,7 +51,7 @@ cp: target ‘morse.txt’ is not a directory
 ## Using wildcards for accessing multiple files at once
 
 `*` is a **wildcard**, which matches zero or more  characters.
-Let's consider the `shell-lesson-data/molecules` directory:
+Let's consider the `shell-lesson-data/alkanes` directory:
 `*.pdb` matches `ethane.pdb`, `propane.pdb`, and every
 file that ends with '.pdb'. On the other hand, `p*.pdb` only matches
 `pentane.pdb` and `propane.pdb`, because the 'p' at the front only
@@ -74,7 +74,7 @@ as it is.
 
 ## Exercise: List filenames matching a pattern
 
-When run in the `molecules` directory, which `ls` command(s) will
+When run in the `alkanes` directory, which `ls` command(s) will
 produce this output?
 
 `ethane.pdb   methane.pdb`
@@ -103,51 +103,6 @@ This is the solution.
 >
 4. only shows files starting with `ethane.`.
 {{%/expand %}}
-
-## Exercise: Organizing Directories and Files
-
-Jamie is working on a project and she sees that her files aren't very well
-organized:
-
-```Bash
-$ ls -F
-```
-
-~~~
-analyzed/  fructose.dat    raw/   sucrose.dat
-~~~
-
-
-The `fructose.dat` and `sucrose.dat` files contain output from her data
-analysis. What command(s) covered in this lesson does she need to run
-so that the commands below will produce the output shown?
-
-```Bash
-$ ls -F
-```
-
-~~~
-analyzed/   raw/
-~~~
-
-```Bash
-$ ls analyzed
-```
-
-~~~
-fructose.dat    sucrose.dat
-~~~
-
-
-{{% expand "Solution" %}}
-```
-mv *.dat analyzed
-```
-{: .language-bash}
-Jamie needs to move her files `fructose.dat` and `sucrose.dat` to the `analyzed` directory.
-The shell will expand *.dat to match all .dat files in the current directory.
-The `mv` command then moves the list of .dat files to the 'analyzed' directory.
-{{% /expand %}}
 
 ## Exercise: Reproduce a folder structure
 
