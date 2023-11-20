@@ -88,32 +88,3 @@ $ ls quotes.txt
 ~~~
 quotes.txt
 ~~~
-
-
-## Exercise: Moving Files to a new folder
-
-After running the following commands,
-Jamie realizes that she put the files `sucrose.dat` and `maltose.dat` into the wrong folder.
-The files should have been placed in the `raw` folder.
-
-```Bash
-$ ls -F
- analyzed/ raw/
-$ ls -F analyzed
-fructose.dat glucose.dat maltose.dat sucrose.dat
-$ cd analyzed
-```
-
-Fill in the blanks to move these files to the `raw/` folder
-(i.e. the one she forgot to put them in)
-
-```Bash
-$ mv sucrose.dat maltose.dat ____/____
-```
-{{%expand "Solution" %}}
-```Bash
-$ mv sucrose.dat maltose.dat ../raw
-```
-Recall that `..` refers to the parent directory (i.e. one above the current directory)
-and that `.` refers to the current directory.
-{{% /expand %}}
