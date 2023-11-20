@@ -91,4 +91,17 @@ quotes.txt
 
 ## Exercise: Rename Folder
 1. In  `/shell-lesson-data/exercise-data` we want to rename the folder `alkane` to `molecules` how can we to this?
+{{% expand "Solution" %}}
+
+```
+mv alkane molecules
+```
+{{% /expand %}}
+
 2. In `/shell-lesson-data/exercise-data/animal-counts` we have a file named `animals.csv` how can we convert this to a new extension `animals.txt`?
+{{% expand "Solution" %}}
+
+```
+mv animal.csv animal.txt
+```
+{{% /expand %}}
