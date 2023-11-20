@@ -17,7 +17,7 @@ For our examples, we will use a file that contains three haiku taken from a
 we're going to be working in the writing subdirectory:
 
 ```Bash
-$ cd ~/shell-lesson-data/writing
+$ cd ~/shell-lesson-data/exercise-data/writing
 $ cat haiku.txt
 ```
 
