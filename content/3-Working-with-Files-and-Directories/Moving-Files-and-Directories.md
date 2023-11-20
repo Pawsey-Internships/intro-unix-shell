@@ -102,6 +102,6 @@ mv alkane molecules
 {{% expand "Solution" %}}
 
 ```
-mv animal.csv animal.txt
+mv animals.csv animals.txt
 ```
 {{% /expand %}}
