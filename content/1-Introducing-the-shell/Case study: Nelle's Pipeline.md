@@ -47,7 +47,7 @@ In order to achieve her task, Nelle needs to know how to:
 First we need to download and unzip the dataset we are going to work with in this session.
 
 ```Bash
-$ curl -O https://pawsey-internships.github.io/intro-unix-shell/data/shell-lesson-data.zip
+$ curl -O https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 $ ls
 ```
 ~~~
